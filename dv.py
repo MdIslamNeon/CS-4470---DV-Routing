@@ -1,7 +1,7 @@
 import argparse
 import sys
 from logic import init as logic_init
-from logic import command_loop
+from cli import command_loop
 from network import init_network, start_periodic_updates
 
 

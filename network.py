@@ -129,7 +129,7 @@ def receive_loop():
                 continue
 
             pkt_count += 1
-            # print(f"RECEIVED A MESSAGE FROM SERVER {sender_id}")
+            print(f"RECEIVED A MESSAGE FROM SERVER {sender_id}")
 
             # hand to logic
             logic.handle_update(sender_id, dv)
